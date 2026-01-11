@@ -71,7 +71,6 @@ CREATE TABLE Bills (
     status NVARCHAR(20) DEFAULT 'Pending',
     generated_by INT
 );
-
 -- Payments Table
 CREATE TABLE Payments (
     payment_id INT PRIMARY KEY IDENTITY(1,1),
@@ -83,6 +82,7 @@ CREATE TABLE Payments (
     received_by INT,
     status NVARCHAR(20) DEFAULT 'Completed'
 );
+
 
 -- Staff Table
 CREATE TABLE Staff (
@@ -99,3 +99,4 @@ CREATE TABLE Staff (
     last_login DATETIME NULL
 
 );
+
