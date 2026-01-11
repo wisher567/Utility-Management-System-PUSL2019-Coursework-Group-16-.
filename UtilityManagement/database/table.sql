@@ -97,4 +97,5 @@ CREATE TABLE Staff (
     is_active BIT DEFAULT 1,
     created_at DATETIME DEFAULT GETDATE(),
     last_login DATETIME NULL
+
 );
