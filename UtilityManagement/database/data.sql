@@ -1,7 +1,7 @@
 INSERT INTO UtilityTypes (utility_name, unit_measure, description)
 VALUES
 ('Electricity', 'kWh', 'Electric power consumption'),
-('Water', 'm³', 'Potable water supply'),
+('Water', 'mÂ³', 'Potable water supply'),
 ('Gas', 'Therm', 'Natural gas service');
 GO
 
@@ -110,3 +110,4 @@ VALUES
 (6, '2023-10-29', 450.00, 'Bank Transfer', 'PAY-1009', 4, 'Completed'),
 (9, '2023-10-30', 315.75, 'Card', 'PAY-1010', 4, 'Completed');
 GO
+
